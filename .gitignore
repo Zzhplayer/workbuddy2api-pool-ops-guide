@@ -1,0 +1,13 @@
+# 保险起见：任何真实配置/密钥/日志都不该进版本库
+config.json
+*.key
+*.pem
+.env
+.env.*
+auths/
+logs/
+*.log
+*.jsonl
+*.jsonl.zstd
+data/
+node_modules/
